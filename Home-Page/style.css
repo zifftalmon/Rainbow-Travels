@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+}
+/* Add nav menu from bootstrap */
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 3px solid red;
+    background-color: rgba(80, 185, 245, 0.3);
+}
+#logo {
+    width: 80px;
+    height: 80px;
+}
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.navbar ul > li a{
+    margin-right: 50px;
+    text-decoration: none;
+    color: black;
+}
+#hero {
+    background-image: url();
+}
